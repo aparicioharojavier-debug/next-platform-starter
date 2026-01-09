@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Urgen Cargo | Logística urgente en 24/7</title>
+  <meta name="description" content="Landing page inspirada en Urgen Cargo para envíos urgentes, e-commerce y carga dedicada." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            slate: {
+              950: '#0b1223'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      background: radial-gradient(circle at 10% 20%, rgba(255, 196, 61, 0.14), transparent 25%),
+                  radial-gradient(circle at 80% 10%, rgba(34, 211, 238, 0.18), transparent 22%),
+                  radial-gradient(circle at 50% 80%, rgba(249, 115, 22, 0.14), transparent 30%),
+                  #0f172a;
+      color: #e2e8f0;
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-slate-950/95 text-slate-100">
+  <header class="sticky top-0 z-10 backdrop-blur bg-slate-950/80 border-b border-white/10">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-amber-300 via-orange-400 to-cyan-400 flex items-center justify-center font-bold text-slate-950 shadow-lg shadow-amber-400/30">UC</div>
+        <div>
+          <p class="text-sm uppercase tracking-wide text-amber-200 font-semibold">Urgen Cargo</p>
+          <p class="text-xs text-white/70">Logística urgente 24/7</p>
+        </div>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm font-semibold text-white/70">
+        <a href="#servicios" class="hover:text-white">Servicios</a>
+        <a href="#cobertura" class="hover:text-white">Metodología</a>
+        <a href="#clientes" class="hover:text-white">Clientes</a>
+        <a href="#contacto" class="hover:text-white">Contacto</a>
+      </nav>
+      <a href="#contacto" class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-300 text-slate-950 font-semibold shadow-md shadow-amber-300/30 hover:bg-amber-200">Cotizar</a>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-12 space-y-16 sm:space-y-20">
+    <section class="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
+      <div class="space-y-6">
+        <div class="inline-flex items-center gap-2 px-3 py-1 text-sm rounded-full bg-white/10 ring-1 ring-white/15">
+          <span class="w-2 h-2 rounded-full bg-amber-400" aria-hidden="true"></span>
+          <span class="text-white/80">Operamos 24/7 para tus envíos urgentes</span>
+        </div>
+        <h1 class="text-4xl font-extrabold leading-tight sm:text-5xl">
+          Logística urgente inspirada en Urgen Cargo
+        </h1>
+        <p class="max-w-2xl text-lg text-white/80">
+          Movemos lo crítico cuando el tiempo importa. Diseñamos rutas ágiles, seguimiento en vivo y equipos dedicados para entregar en horas, no días.
+        </p>
+        <div class="flex flex-wrap items-center gap-3">
+          <a href="#contacto" class="btn btn-lg bg-amber-400 text-slate-900 hover:bg-amber-300 px-5 py-3 rounded-full font-semibold">Cotizar mi envío</a>
+          <a href="#servicios" class="inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold transition rounded-full bg-white/5 ring-1 ring-white/10 hover:bg-white/10">
+            Ver servicios
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+        <div class="grid gap-4 sm:grid-cols-3">
+          <div class="p-4 rounded-lg bg-white/5 ring-1 ring-white/10 shadow-lg shadow-amber-500/5">
+            <p class="text-2xl font-semibold text-amber-300">2h 45m</p>
+            <p class="text-sm text-white/70">Tiempo promedio en ciudad</p>
+          </div>
+          <div class="p-4 rounded-lg bg-white/5 ring-1 ring-white/10 shadow-lg shadow-amber-500/5">
+            <p class="text-2xl font-semibold text-amber-300">98.7%</p>
+            <p class="text-sm text-white/70">Índice de puntualidad</p>
+          </div>
+          <div class="p-4 rounded-lg bg-white/5 ring-1 ring-white/10 shadow-lg shadow-amber-500/5">
+            <p class="text-2xl font-semibold text-amber-300">40+</p>
+            <p class="text-sm text-white/70">Ciudades activas</p>
+          </div>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="absolute -inset-6 rounded-3xl bg-gradient-to-br from-amber-400/20 via-orange-500/10 to-cyan-400/10 blur-3xl" aria-hidden="true"></div>
+        <div class="relative p-1 rounded-3xl bg-white/10 ring-1 ring-white/15">
+          <div class="p-8 space-y-6 rounded-[22px] bg-slate-950/80">
+            <p class="text-sm font-semibold text-amber-200">Control en vivo</p>
+            <h2 class="text-2xl font-bold">Panel operativo</h2>
+            <p class="text-white/75">
+              Seguimiento GPS, reintentos programados y chat con el conductor en la misma interfaz. No dependas de correos ni hojas de cálculo para saber dónde está tu paquete.
+            </p>
+            <div class="space-y-3">
+              <div class="flex items-center gap-3 text-sm text-white/80">
+                <span class="flex items-center justify-center w-7 h-7 rounded-full bg-amber-300/20 text-amber-200">✓</span>
+                <span>Tracking en vivo</span>
+              </div>
+              <div class="flex items-center gap-3 text-sm text-white/80">
+                <span class="flex items-center justify-center w-7 h-7 rounded-full bg-amber-300/20 text-amber-200">✓</span>
+                <span>Alertas automáticas</span>
+              </div>
+              <div class="flex items-center gap-3 text-sm text-white/80">
+                <span class="flex items-center justify-center w-7 h-7 rounded-full bg-amber-300/20 text-amber-200">✓</span>
+                <span>Prueba de entrega digital</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="space-y-6">
+      <div class="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <p class="text-sm font-semibold uppercase text-amber-200">Soluciones</p>
+          <h2 class="text-2xl sm:text-3xl font-bold">Lo que hacemos cada día</h2>
+        </div>
+        <a href="#contacto" class="inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold transition rounded-full bg-white/5 ring-1 ring-white/10 hover:bg-white/10">
+          Agenda una llamada
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+      <div class="grid gap-6 md:grid-cols-2">
+        <article class="bg-white/90 backdrop-blur text-slate-900 shadow-xl shadow-slate-950/10 rounded-2xl p-5">
+          <div class="flex items-start gap-4">
+            <div class="flex items-center justify-center w-12 h-12 text-lg font-semibold text-slate-900 rounded-full bg-amber-300/90">•</div>
+            <div class="space-y-2">
+              <h3 class="text-xl font-bold text-slate-900">Paquetería urgente</h3>
+              <p class="text-slate-700">Recolección y entrega en el mismo día con seguimiento minuto a minuto.</p>
+              <p class="text-sm text-slate-600">Vehículos dedicados y rutas dinámicas para envíos críticos.</p>
+            </div>
+          </div>
+        </article>
+        <article class="bg-white/90 backdrop-blur text-slate-900 shadow-xl shadow-slate-950/10 rounded-2xl p-5">
+          <div class="flex items-start gap-4">
+            <div class="flex items-center justify-center w-12 h-12 text-lg font-semibold text-slate-900 rounded-full bg-amber-300/90">•</div>
+            <div class="space-y-2">
+              <h3 class="text-xl font-bold text-slate-900">Última milla e e-commerce</h3>
+              <p class="text-slate-700">Operaciones diseñadas para tiendas en línea y dropshipping.</p>
+              <p class="text-sm text-slate-600">Integraciones flexibles, ventanas de entrega y prueba de entrega digital.</p>
+            </div>
+          </div>
+        </article>
+        <article class="bg-white/90 backdrop-blur text-slate-900 shadow-xl shadow-slate-950/10 rounded-2xl p-5">
+          <div class="flex items-start gap-4">
+            <div class="flex items-center justify-center w-12 h-12 text-lg font-semibold text-slate-900 rounded-full bg-amber-300/90">•</div>
+            <div class="space-y-2">
+              <h3 class="text-xl font-bold text-slate-900">Carga dedicada</h3>
+              <p class="text-slate-700">Camiones y vans asegurados para rutas nacionales y cross-dock.</p>
+              <p class="text-sm text-slate-600">Planeación de capacidad, monitoreo 24/7 y SLA garantizados.</p>
+            </div>
+          </div>
+        </article>
+        <article class="bg-white/90 backdrop-blur text-slate-900 shadow-xl shadow-slate-950/10 rounded-2xl p-5">
+          <div class="flex items-start gap-4">
+            <div class="flex items-center justify-center w-12 h-12 text-lg font-semibold text-slate-900 rounded-full bg-amber-300/90">•</div>
+            <div class="space-y-2">
+              <h3 class="text-xl font-bold text-slate-900">Soluciones personalizadas</h3>
+              <p class="text-slate-700">Modelamos la operación que tu negocio necesita.</p>
+              <p class="text-sm text-slate-600">Kitting, devoluciones, lockers y distribución en frío bajo demanda.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="cobertura" class="grid gap-8 lg:grid-cols-2">
+      <div class="p-6 rounded-2xl bg-white/5 ring-1 ring-white/10">
+        <p class="text-sm font-semibold uppercase text-amber-200">Cómo operamos</p>
+        <h2 class="mt-2 text-2xl font-bold">Metodología Urgen</h2>
+        <ol class="mt-4 space-y-4 text-white/80 list-decimal list-inside">
+          <li class="leading-relaxed">Confirmamos la recolección en menos de 15 minutos con un operador dedicado.</li>
+          <li class="leading-relaxed">Asignamos la ruta más rápida y compartimos tracking en tiempo real.</li>
+          <li class="leading-relaxed">Validamos la entrega con evidencia fotográfica y reporte de cumplimiento diario.</li>
+        </ol>
+      </div>
+      <div class="p-6 rounded-2xl bg-white/5 ring-1 ring-white/10">
+        <p class="text-sm font-semibold uppercase text-amber-200">Cobertura</p>
+        <h2 class="mt-2 text-2xl font-bold">Red de aliados y hubs</h2>
+        <ul class="mt-4 space-y-3 text-white/80">
+          <li class="flex items-start gap-3">
+            <span class="flex items-center justify-center w-6 h-6 mt-0.5 text-xs font-bold rounded-full bg-amber-300/20 text-amber-200">●</span>
+            <span>Madrid, Barcelona, Valencia, Bilbao y Sevilla</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="flex items-center justify-center w-6 h-6 mt-0.5 text-xs font-bold rounded-full bg-amber-300/20 text-amber-200">●</span>
+            <span>CDMX, Guadalajara, Monterrey y Puebla</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="flex items-center justify-center w-6 h-6 mt-0.5 text-xs font-bold rounded-full bg-amber-300/20 text-amber-200">●</span>
+            <span>Bogotá, Medellín, Cali y Barranquilla</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="flex items-center justify-center w-6 h-6 mt-0.5 text-xs font-bold rounded-full bg-amber-300/20 text-amber-200">●</span>
+            <span>Red de aliados en 40+ ciudades para picos de demanda</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="clientes" class="grid gap-8 lg:grid-cols-[1.2fr_0.8fr] items-center">
+      <div class="space-y-4">
+        <p class="text-sm font-semibold uppercase text-amber-200">Confían en nosotros</p>
+        <h2 class="text-2xl sm:text-3xl font-bold">Equipos que priorizan velocidad y visibilidad</h2>
+        <p class="text-white/80">
+          Urgen Cargo se integra con tus sistemas actuales para ofrecer entregas express, devoluciones fáciles y análisis de desempeño. Operamos con SOPs claros y KPIs que revisamos contigo cada semana.
+        </p>
+        <div class="grid gap-3 sm:grid-cols-2">
+          <div class="p-4 rounded-xl bg-white/5 ring-1 ring-white/10 text-white/80">E-commerce y retail omnicanal</div>
+          <div class="p-4 rounded-xl bg-white/5 ring-1 ring-white/10 text-white/80">Laboratorios clínicos y farmacéuticas</div>
+          <div class="p-4 rounded-xl bg-white/5 ring-1 ring-white/10 text-white/80">Marcas DTC con lanzamientos relámpago</div>
+          <div class="p-4 rounded-xl bg-white/5 ring-1 ring-white/10 text-white/80">Equipos de mantenimiento y refacciones urgentes</div>
+        </div>
+      </div>
+      <div class="p-6 rounded-2xl bg-gradient-to-br from-amber-300/90 via-orange-400/80 to-amber-500 text-slate-950 shadow-xl shadow-amber-500/30">
+        <p class="text-sm font-semibold uppercase">SLA medibles</p>
+        <h3 class="mt-2 text-2xl font-bold">Resultados, no promesas</h3>
+        <ul class="mt-4 space-y-3 text-slate-900/90">
+          <li>Tiempo de respuesta inicial: &lt; 15 minutos.</li>
+          <li>Evidencia de entrega en el momento de la firma.</li>
+          <li>Cuadros de mando diarios y reportes semanales.</li>
+          <li>Equipo de soporte bilingüe 24/7.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contacto" class="p-6 rounded-2xl bg-white/10 ring-1 ring-white/15">
+      <div class="grid gap-6 md:grid-cols-[1.2fr_0.8fr] md:items-center">
+        <div class="space-y-4">
+          <p class="text-sm font-semibold uppercase text-amber-200">Hablemos</p>
+          <h2 class="text-2xl sm:text-3xl font-bold">Cuéntanos qué necesitas mover</h2>
+          <p class="text-white/80">
+            En menos de 24 horas tendrás una propuesta operativa con costos claros y tiempos estimados por zona. También podemos comenzar con un piloto de 7 días para validar el servicio.
+          </p>
+          <div class="flex flex-wrap gap-3 text-sm">
+            <a href="mailto:hola@urgencargo.com" class="bg-amber-400 text-slate-900 hover:bg-amber-300 px-5 py-3 rounded-full font-semibold">Escribir un correo</a>
+            <a href="tel:+34999999999" class="inline-flex items-center gap-2 px-4 py-2 font-semibold transition rounded-full bg-white/5 ring-1 ring-white/10 hover:bg-white/10">
+              Llamar ahora
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+        <div class="p-5 rounded-xl bg-slate-950/70 ring-1 ring-white/10">
+          <p class="text-sm font-semibold text-white/80">Checklist para comenzar</p>
+          <ul class="mt-3 space-y-2 text-white/70">
+            <li>• Zonas de recolección y entrega.</li>
+            <li>• Ventanas horarias y volumen semanal.</li>
+            <li>• Requerimientos de empaque y evidencia.</li>
+            <li>• Integraciones o herramientas actuales.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10 bg-slate-950/70">
+    <div class="max-w-6xl mx-auto px-4 py-8 grid gap-6 md:grid-cols-3">
+      <div class="space-y-2">
+        <p class="text-sm font-semibold text-amber-200">Urgen Cargo</p>
+        <p class="text-white/70">Operamos envíos urgentes y soluciones de última milla con visibilidad total.</p>
+      </div>
+      <div>
+        <p class="text-sm font-semibold text-white/80">Contacto</p>
+        <p class="text-white/70">hola@urgencargo.com</p>
+        <p class="text-white/70">+34 999 999 999</p>
+      </div>
+      <div>
+        <p class="text-sm font-semibold text-white/80">Ubicaciones clave</p>
+        <p class="text-white/70">Madrid · CDMX · Bogotá</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

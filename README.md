@@ -38,6 +38,13 @@ netlify dev
 
 If your browser doesn't navigate to the site automatically, visit [localhost:8888](http://localhost:8888).
 
+## Ver la landing "Urgen Cargo"
+
+Hay dos formas rápidas de previsualizar la página de destino incluida en `public/urgen-cargo.html`:
+
+1. **Abrir el archivo directamente**: abre `public/urgen-cargo.html` en tu navegador (doble clic o arrastrar y soltar) para ver la versión estática sin montar el proyecto.
+2. **Ejecutar en local**: arranca el servidor con `npm run dev` o `netlify dev` y navega a `http://localhost:3000/urgen-cargo.html` (o al puerto que uses) para verla integrada junto al resto del sitio.
+
 ## Resources
 
 - Check out the [Next.js on Netlify docs](https://docs.netlify.com/frameworks/next-js/overview/)
